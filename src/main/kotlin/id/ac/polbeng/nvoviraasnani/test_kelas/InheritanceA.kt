@@ -12,7 +12,9 @@ class Laptop(name: String,
         println("Name : $name")
         println("Brand : $brand")
         println("Battery Life : $batteryLife")
+
     }
+    //
 }
 fun main(){
     val myLaptop = Laptop("Acer Aspire 4738", "Acer", 2.5)
